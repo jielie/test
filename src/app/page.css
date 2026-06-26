@@ -1,0 +1,44 @@
+.maindiv{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.list-group{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  justify-content: start;
+  margin: 10px;
+  padding: 10px
+}
+.list-group-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+.btn{
+  margin: 10px;
+  padding: 5px;
+}
+/* .itembtn{
+  display: block;
+  margin-left: auto;
+} */
+.btn-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
